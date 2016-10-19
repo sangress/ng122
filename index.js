@@ -6,7 +6,8 @@ let ng122Map = {
     'ng-class': '[ngClass]',
     'ng-click': '(click)',
     '$ctrl.': '',
-    'ng-repeat': '*ngFor'
+    'ng-repeat': '*ngFor',
+    'ng-src': '[src]'
 }
 let path = _.get(process, 'argv[2]', null);
 console.log('path', path);
